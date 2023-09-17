@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+    <div class="aa1" id="root"> Content1</div>
+    <div class="aa2" id="root"> Content2</div>
+    <div class="aa3" id="root"> Content3</div>
+    
+    
+    <form name = "myform" onsubmit="return vaidatateForm()">
+        Tên: <input type="text" name="name">
+        Tuổi: <input type="number" name="age">
+        Địa chỉ: <input type="text" name="address">
+
+        <button type="submit">Gửi</button>
+    </form>
+    
+        <script>
+        //     const elementById = document.getElementById("root");
+        //     const pi = document.createElement('p');
+        //     pi.innerText = "Trần viết Thịnh";
+        //     pi.style.backgroundColor= 'red';
+        //     pi.style.fontSize= '50px';
+        //     pi.style.fontWeight= 'Bold';
+
+        // elementById.appendChild(pi);
+
+        const elm = document.querySelectorAll('div.aa3')
+        
+        </script>
+
+
+        <script>
+            function vaidatateForm(){
+                console.log('xxxxxxxxxxxxxxxxxxxxxxx');
+                let x = document.forms["myform"]["name"].value;
+                if(x==""){
+                    alert("Tên không được bỏ trống");
+                }
+            }
+        </script>
+
+        
+
+    </div>
+</body>    
+</html>

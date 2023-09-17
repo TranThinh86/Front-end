@@ -1,0 +1,143 @@
+.container{
+    max-width: 840px;
+    margin-left: 60px;
+}
+
+.music-name{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0;
+}
+
+.audio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 155px;
+    background: black;
+    margin-top: 12px;
+    border-radius: 4px 4px 0 0;
+    
+}
+.audio__image-block{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+.audio__image-cover {
+    max-width: 80px;
+    height: auto;
+    margin-left: 16px;
+  }
+
+.audio__control{
+    height: 54px;
+    width: 100%;
+    background: #F1F3F5;
+    
+}
+.music_container{
+    height: 160px;
+    overflow: hidden;
+    border: #dbdbdb solid 1px;
+    padding-left: 20px;
+    margin-top: 0;
+   border-radius: 0 0 8px 8px;
+}
+.music-wrapper{
+    overflow-y: auto;
+    height: 100%;
+}
+
+.scroll-bar::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+.scroll-bar::-webkit-scrollbar
+{
+	background-color: #000000;
+	border: 2px solid #555555;
+}
+
+
+.music-item :hover{
+    display: list-item;
+    
+}
+.music-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    padding-right: 15px;
+    border-bottom: 1px solid #dcecf2;
+  }
+
+.icon >img{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    padding-left: 5px;
+    
+    }
+.image-control{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    
+    
+    
+    
+}
+.parent-left{
+    display: flex;
+    align-items: center;
+}
+    
+
+
+.image-author{
+    
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden
+}    
+
+.author{
+    
+    margin-left: 2px;
+    margin-top: 0;
+}
+.author > p{
+    margin-bottom: 5px;
+}
+.icon-2{
+    display: flex;
+    align-items: center;
+}
+.icon-2 > img{ 
+   
+    font-size: 25px;
+    width: 25px;
+  
+
+}
+
+
+
+
+
+
+
+ 
+
+
+
