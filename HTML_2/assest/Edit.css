@@ -1,0 +1,396 @@
+body{
+    background: url(./Pics/Background.svg) ;
+    /* background: url('https://iweb.tatthanh.com.vn/pic/3/blog/images/image(4822).png'); */
+   /* background: url('https://cdn0.iconfinder.com/data/icons/expenses-vs-income/30/__beauty_health_cosmetics_heart-32.png'); */
+   background-color: whitesmoke;
+    background-attachment: fixed;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content:space-around;
+    column-gap: 100px;
+}
+.information{
+    position: relative;
+    text-align:center;
+    width: 400px;
+    height: 734px;
+    background-color: red;
+    border-radius: 20px;
+    top: 240px;
+    margin-left: 50px;
+}
+.my_picture{
+    
+    position: absolute;
+    top: -120px;
+    left: 50%;
+    transform: translate(-50%,0);
+    border-radius: 20px;
+}
+.name{
+    padding-top: 150px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+    padding-top: 120px ;
+    
+}
+.position{
+    font-weight: 500;
+    border: 1px solid gray;
+    background-color: lightcoral;
+    border-radius: 10px;
+    padding: 5px 20px;
+    max-height: 20px;
+    max-width: 150px;
+    margin-left: 110px;
+   
+    
+}
+.UI{
+    margin: 0 auto;
+}
+.icon_block{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+    
+    
+
+}
+.link {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    margin-right: 30px; 
+    
+    
+}
+.story{
+    align-items: center;
+}
+.card{
+    background-color: lightseagreen;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 20px;   
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-right: 30px;
+    
+}
+.phone,.birthday,.email,.location{
+    width: 260px;
+    height: 44px;
+    margin-left: 20px;
+    margin-top: 15px;
+   
+}
+
+.icon_1{
+    display: flex;
+    justify-content: center; 
+    /* vị trí icon */
+    align-items: center;
+    /* nằm gọn trong khung */
+    width: 44px;
+    height: 44px;
+    background: lightgoldenrodyellow;
+    border-radius: 5px;
+}
+.add{
+   
+    width: 113px;
+    height: 44px;
+}
+.item1{
+    width: 38px;
+    height: 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    margin-block: -44px;
+    margin-left: 54px;
+}
+.item2{
+    
+    display: flex;
+    padding-left: 5px;
+    width: 113px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    margin-left: 50px;
+    margin-block: 45px;
+   
+}
+.dowload{
+    background-color: #FA5252 ;
+    padding: 14px 30px;
+    margin-top: 30px;
+    border-radius: 10px ;
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+    margin-left: 92px;
+}
+.dowload>img{
+    margin-top: 8px;
+}
+.dowload>p{
+    margin-left: 3px;
+}
+.fuction{
+    display: flex;
+    flex-direction: column;
+}
+.block{
+    background-color:#FFFFFF;
+    margin-right: -681px;
+    position: absolute;
+    display: flex;
+    height: fit-content;
+    
+    column-gap: 20px;
+    top: 150px;
+    padding: 10px 80px;
+    text-align: center;
+    /*set đối tượng nằm giữa */
+    border-radius: 12px;
+
+}
+.symbol{
+    width: 84px;
+    height: 84px;
+    background-color: darkorange;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+}
+.icon2{
+    margin-top: 15px;
+}
+.text{
+    margin-top: 5px;
+}
+.symbol:hover{
+    cursor: pointer;
+    background:  linear-gradient(153.43deg, #FA5252 16.67%, #DD2476 100%);
+    color: rebeccapurple;
+
+}
+.experience{
+    position: relative;
+    background-color:#FFFFFF ;
+    margin-bottom: 100px;
+    width: 800px;
+    height: 800px;
+    top: 354px;
+    right: 45px;
+    border-radius: 12px;
+    
+}
+.Me{
+    
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.Me>p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.mystory{
+    
+    display: flex; 
+    font-weight: 900;
+}
+.h1{
+    
+    
+    display: flex;
+    font-size: 20px;
+    
+    
+} 
+.img{
+    margin-left: 20px;
+}
+.skills{
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 60px;
+    column-gap: 20px;
+    
+    
+    
+}
+.working
+
+{
+    
+    width: 100%;
+    margin-left: 20px;
+    
+}
+.language{
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+.skills_bar{
+    background-color: lightslategray;
+    height: 8px;
+    border-radius: 8px;
+    width: 100%;
+    
+}   
+.bar_html{
+    background-color:#FF6464  ;
+    border-radius: 8px;
+    height: 8px;
+    width: 85%;
+} 
+.bar_css{
+    background-color: #9272d4 ;
+    height: 8px;
+    width: 55%;
+} 
+.bar_java{
+    background-color: #5185d4;
+    height: 8px;
+    width: 65%;
+} 
+.bar_react{
+    background-color:  #CA56F2;
+    height: 8px;
+    width: 72%;
+} 
+.knowledges>h3{
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 39px;
+    margin-left: 20px;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.content_block{
+    
+    background-color:  #EDF2F2;
+    border-radius: 8px;
+    padding: 5px 20px 5px 20px;
+    margin-left: 12px;
+    margin-bottom: 25px;
+}
+.botblock{
+    background-color:#FFFFFF;
+    display: flex;
+    justify-content: space-around;
+   
+    column-gap: 30px;
+    
+    
+}
+
+.botblock__education--icon,.botblock__experience--icon{
+    
+    display: flex;
+    column-gap: 10px;
+    
+}
+.botblock__education--backgr{
+    margin-top: 35px;
+    border-radius: 12px;
+    padding: 15px 10px 15px 20px;
+    background-color: #fff4f4;
+}
+.client{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.client__title{
+    
+    margin-top: 30px;
+    padding-top: 13px;
+   
+}
+.client__icon{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.client__endtitle{
+  
+    padding-top: 30px;
+}
+@media screen and (max-width: 1330px) 
+{
+    .block 
+    {
+        margin-right: -549px;
+    }
+} 
+@media screen and (max-width: 1247px) 
+{
+    .block 
+    {
+        margin-right: -485px;
+    }
+}  
+
+@media screen and (max-width: 1103px) 
+{
+    .block 
+    {
+        display: none;
+    } 
+    
+} 
+
+
+    
+    
+    
+
+    
+
+
+
+
+
+
+    
+
+
+
+    
+
+
